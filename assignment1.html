@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Web Engineering</title>
+    <style>
+       
+        .block {
+            background-color: rgb(88, 222, 179);
+            margin: 8px 0;
+            padding: 8px;
+        }
+
+        .inline {
+            background-color: lightgreen;
+            padding: 4px;
+        }
+        .Semantic{
+            background-color: lightseagreen;
+            padding: 4px;
+
+        }
+
+        header, footer, nav {
+            background-color: #69ff61;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        xmp{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+   <!-- ==============assignment header==================== -->
+    <div style="text-align: center;">
+        <h1>Assignment 1 - Web Engineering</h1>
+        <p>Teacher: Mr Azhar Ali</p>
+        <p>Submitted By: Muhammad Essa</p>
+       <a href="https://muhammadessa514.vercel.app/">Github Repo Link</a> <br> <br>
+       <a href="https://muhammadessa514.vercel.app/">Portfolio</a> 
+    </div>
+
+   <!-- ================HTML5 Structure============================== -->
+    <div>
+        <h2>HTML Web Structure</h2>
+
+         <nav><pre>Top part of website                                                                                                  Home       About       Contact      SignIn     SignUp     
+            
+         </pre> </nav>
+
+        <main class="block">
+        <h2>Html Basic Structure of boiler plate</h2>
+        <xmp><!DOCTYPE html></xmp>
+        <p>This is a mandatory declaration at the very top of the document that tells the browser the page is written in HTML5.If we don't include this declaration, the browser will assume the page is written in an older version of HTML.</p>
+
+          <xmp><html></xmp>
+        <p>The html tag is the root element becauew it act as a container for other elements and tell the browser every thing inside this tag is html</p>
+
+          <xmp><head></xmp>
+        <p>A container for metadata (data about the page). This information is not visible to users but is crucial for browsers and search engines.</p>
+          <xmp><body></xmp>
+        <p>This contains all the visible content, such as text, images,buttons etc.</p>
+
+        </main>
+
+        <footer>Footer Of Website</footer>
+    </div>
+
+    <!-- ================Block elements================ -->
+
+    <div>
+        <h2>Block Elements</h2>
+        <p>A block-level element is a type of element that structures a web page by taking up the full width available and always starting on a new line</p>
+
+         <xmp class="block"><div></div></xmp> 
+         <xmp class="block"><p></p></xmp> 
+         <xmp class="block"><h1></h1></xmp> 
+         <xmp class="block"><h6></h6></xmp> 
+         <xmp class="block"><section></section></xmp> 
+         <xmp class="block"><header></header></xmp> 
+         <xmp class="block"><footer></footer></xmp> 
+         <xmp class="block"><main></main></xmp> 
+         <xmp class="block"><nav></nav></xmp> 
+         <xmp class="block"><form action=""></form></xmp> 
+         <xmp class="block"><ul></ul></xmp> 
+         <xmp class="block"><ol></ol></xmp> 
+         <xmp class="block"><li></li></xmp> 
+         <xmp class="block"><table></table></xmp> 
+         <xmp class="block"><hr></xmp>  
+      
+    </div>
+
+    <!-- ================Inline elements================ -->
+    <div>
+        <h2 >Inline Elements</h2>
+        <p>An inline element is a type of element that does not start on a new line and only takes necessary space for its content</p>
+
+            <span class="inline">span</span>
+            <a href="https://muhammadessa514.vercel.app" class="inline">anchar a</a>
+            <strong class="inline">strong</strong>
+            <em class="inline">em and i donu italic kaliya</em>
+            <b class="inline">b bold</b>
+            <i class="inline">i italic</i>
+            <u class="inline">u underline</u>
+            <small class="inline">small</small>
+            <mark class="inline">mark</mark>
+            <label class="inline">label</label>
+            <input type="text" class="inline" placeholder="INPUT">
+            <img src="#" class="inline" alt="IMG">
+            <br>
+            <sub class="inline">sub</sub>
+            <sup class="inline">sup</sup>
+    </div>
+
+    <div>
+    <h2>Semantic Elements</h2>
+    <p>Semantic elements are those elements that clearly describe their meaning and purpose for  both the browser and the developer</p>
+
+    <header class="Semantic">HEader</header>
+    <main class="Semantic">Main Contemt</main>
+    <footer class="Semantic">footer</footer>
+    <section class="Semantic">section</section>
+    <p class="Semantic">paragraph</p>
+    <button class="Semantic">button</button>
+</div>
+
+</body>
+</html>
